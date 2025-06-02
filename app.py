@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Load YOLOv8 model
 model = YOLO('yolov8m.pt')
 
-rtsp_url = 'rtsp://admin:AGRIsal@agrisal-blue-lx.dyndns.info:40080/cam/realmonitor?channel=2&subtype=0'
+rtsp_url = 'your-rtsp-camera-link'
 
 person_class_id = 0
 cell_phone_class_id = 67
